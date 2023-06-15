@@ -1,0 +1,19 @@
+{
+  "language": "go",
+  "app": "go run main.go",
+  "codeMakerOutput": "generated",
+  "projectId": "7ade56d9-cb47-4ae2-8ec1-b62f8a2ccb05",
+  "sendCrashReports": "false",
+  "terraformProviders": [],
+  "terraformModules": [
+    {
+      "name": "vpc",
+      "source": "terraform-aws-modules/vpc/aws",
+      "version": "3.14.2"
+    }
+  ],
+  "context": {
+    "excludeStackIdFromLogicalIds": "true",
+    "allowSepCharsInLogicalIds": "true"
+  }
+}
